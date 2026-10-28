@@ -10,6 +10,14 @@ A machine learning project that analyzes financial transactions and predicts pot
 - Model evaluation using accuracy, precision, recall, F1-score, and a confusion matrix
 - Interactive Streamlit application for transaction predictions
 
+## Application Screenshots
+
+### Streamlit Application
+![Fraud Detection App](fraud-detection-app.png)
+
+### Prediction Result
+![Fraud Detection Output](fraud-detection-output.png)
+
 ## Technologies Used
 - Python
 - Pandas and NumPy
@@ -25,6 +33,8 @@ financial-transaction-fraud-detection/
 ├── analysis_model.ipynb
 ├── fraud_detection.py
 ├── fraud_detection_pipeline.pkl
+├── fraud-detection-app.png
+├── fraud-detection-output.png
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -45,13 +55,13 @@ financial-transaction-fraud-detection/
    cd financial-transaction-fraud-detection
    ```
 
-2. Install dependencies:
+2. Install the dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Run the application:
+3. Run the Streamlit application:
 
    ```bash
    python -m streamlit run fraud_detection.py
@@ -61,7 +71,7 @@ financial-transaction-fraud-detection/
 The dataset is not included in this repository because of its large file size. Obtain the dataset from its original source and update the notebook's file path if necessary.
 
 ## Model Evaluation
-The model is evaluated using accuracy, precision, recall, F1-score, and a confusion matrix. Refer to the notebook for the measured results and limitations, including false-positive predictions.
+The model is evaluated using accuracy, precision, recall, F1-score, and a confusion matrix. Refer to the notebook for the actual results and limitations, including false-positive predictions.
 
 ## Disclaimer
 This project is intended for educational purposes. Further evaluation and improvement are necessary before using it in a real-world fraud detection system.
