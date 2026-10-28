@@ -1,7 +1,7 @@
 # Financial Transaction Fraud Detection Using Machine Learning
 
 ## Overview
-A machine learning project that analyzes financial transactions and predicts potentially fraudulent activity. The project covers exploratory data analysis, data preprocessing, model training, evaluation, and an interactive Streamlit application for predictions.
+A machine learning project that analyzes financial transactions and predicts potentially fraudulent activity. It includes exploratory data analysis, data preprocessing, model training, evaluation, and an interactive Streamlit application for predictions.
 
 ## Features
 - Exploratory Data Analysis (EDA) and transaction visualizations
@@ -11,12 +11,12 @@ A machine learning project that analyzes financial transactions and predicts pot
 - Interactive Streamlit application for transaction predictions
 
 ## Technologies Used
-- **Language:** Python
-- **Data Analysis:** Pandas, NumPy
-- **Machine Learning:** Scikit-learn, Logistic Regression
-- **Visualization:** Matplotlib, Seaborn
-- **Deployment:** Streamlit
-- **Model Persistence:** Joblib
+- Python
+- Pandas and NumPy
+- Scikit-learn
+- Matplotlib and Seaborn
+- Streamlit
+- Joblib
 
 ## Project Structure
 
@@ -45,26 +45,23 @@ financial-transaction-fraud-detection/
    cd financial-transaction-fraud-detection
    ```
 
-2. Install the required packages:
+2. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Launch the application:
+3. Run the application:
 
    ```bash
    python -m streamlit run fraud_detection.py
    ```
 
 ## Dataset
-The dataset is not included in this repository because of its large size. Obtain it from the original dataset source and update the notebook's dataset path if necessary.
+The dataset is not included in this repository because of its large file size. Obtain the dataset from its original source and update the notebook's file path if necessary.
 
 ## Model Evaluation
-The model is evaluated using accuracy, precision, recall, F1-score, and a confusion matrix. Refer to the notebook for the actual results, including the limitations associated with false-positive predictions.
-
-## Learning Reference
-This project was developed with guidance from a [YouTube machine learning tutorial](https://youtu.be/4Od5_z28iIE), with additional assistance from ChatGPT.
+The model is evaluated using accuracy, precision, recall, F1-score, and a confusion matrix. Refer to the notebook for the measured results and limitations, including false-positive predictions.
 
 ## Disclaimer
 This project is intended for educational purposes. Further evaluation and improvement are necessary before using it in a real-world fraud detection system.
